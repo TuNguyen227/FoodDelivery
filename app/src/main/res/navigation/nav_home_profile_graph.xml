@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_home_profile_graph"
+    app:startDestination="@id/homeScreen">
+    <include app:graph="@navigation/nav_graph"/>
+
+    <fragment
+        android:id="@+id/homeScreen"
+        android:name="com.example.fooddelivery.HomeScreen"
+        android:label="HomeScreen"
+        tools:layout="@layout/fragment_home_screen">
+
+    </fragment>
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.fooddelivery.Profile"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile">
+        <action android:id="@+id/action_profile_to_navgraph"
+            app:destination="@+id/nav_graph"/>
+    </fragment>
+
+
+
+</navigation>

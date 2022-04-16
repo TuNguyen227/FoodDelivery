@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <View
+            android:layout_width="293dp"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="50dp"
+            android:background="@color/Linecolor"
+            android:layout_marginTop="430dp"></View>
+
+        <TextView
+            android:id="@+id/signin"
+            android:text="@string/signin"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textAllCaps="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="400dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/signinarea"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="450dp"
+            android:layout_marginHorizontal="50dp">
+
+            <LinearLayout
+                android:id="@+id/fbsignin"
+                android:layout_width="150dp"
+
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/fbsignin"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fb"></ImageView>
+
+                <Button
+                    android:id="@+id/customfbbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="facebook"
+                    android:background="@drawable/custombutton">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ggsignin"
+                android:layout_width="150dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/customggsignin"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/gg"></ImageView>
+
+                <Button
+                    android:id="@+id/customgooglebtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Google"
+                    android:background="@drawable/customggbutton">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/anothersignin"
+                android:layout_width="150dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/anothersignin"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mistery"></ImageView>
+
+                <Button
+                    android:id="@+id/customanotherbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Another sign in"
+                    android:background="@drawable/customggbutton">
+
+                </Button>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/skipbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/skip"
+            android:text="skip"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/welcometo"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/foodhub"
+            android:textSize="70dp"
+            android:layout_marginTop="150dp"
+            android:textStyle="bold"
+            android:textColor="#FF5722"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Your favourite foods delivered fast at your door. "
+            android:textSize="20dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="100dp"
+            android:textStyle="bold"
+            android:textColor="#FF5722"
+            android:layout_marginLeft="20dp" />
+
+
+    </RelativeLayout>
+</layout>
