@@ -42,11 +42,14 @@ class SignIn : Fragment() {
             val isAccountExist=Validators.checkaccountIsMatchData(email,password)
             if (isAccountExist)
             {
-                _signin_model.signin(email,password)
-                val intent= Intent(context,NavigationView::class.java)
-                intent.flags=Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
 
-                startActivity(intent)
+                _signin_model.signin(email,password)
+
+                    val intent=Intent(context,NavigationView::class.java)
+                    intent.flags= Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+                    startActivity(intent)
+
+
 
 
             }

@@ -24,5 +24,6 @@ class NavigationView : AppCompatActivity() {
         val navController=findNavController(R.id.nav_view)
         bottomNavigationBar.setupWithNavController(navController)
 
+
     }
 }

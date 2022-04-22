@@ -10,5 +10,14 @@
         android:icon="@drawable/ic_profile"
         android:title="Profile"/>
 
+    <item android:id="@+id/movieNowPlaying"
+        android:icon="@drawable/ic_baseline_play_arrow_24"
+        android:title="Movie Now Playing"/>
+
+    <item android:id="@+id/movieTopPlaying"
+        android:icon="@drawable/ic_baseline_star_rate_24"
+        android:title="Movie Top Playing"/>
+
+
 
 </menu>
