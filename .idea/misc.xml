@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/RD@2/FoodDelivery1/FoodDelivery1/app/src/main/res/layout/fragment_movie_now_playing.xml" value="0.3625" />
+        <entry key="..\:/RD@2/FoodDelivery1/FoodDelivery1/app/src/main/res/layout/fragment_movie_top_playing.xml" value="0.3625" />
+        <entry key="..\:/RD@2/FoodDelivery1/FoodDelivery1/app/src/main/res/layout/itemview.xml" value="0.3625" />
+        <entry key="..\:/RD@2/FoodDelivery1/FoodDelivery1/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3625" />
         <entry key="..\:/Users/ABC/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/arrow.xml" value="0.178" />
         <entry key="..\:/Users/ABC/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/button_arrow.xml" value="0.178" />
         <entry key="..\:/Users/ABC/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/profile_name_box.xml" value="0.2325" />
@@ -21,6 +25,19 @@
         <entry key="..\:/Users/ABC/AndroidStudioProjects/FoodDelivery2/app/src/main/res/layout/fragment_welcome.xml" value="0.3484375" />
         <entry key="..\:/Users/ABC/AndroidStudioProjects/FoodDelivery2/app/src/main/res/layout/itemview.xml" value="0.3625" />
         <entry key="..\:/Users/ABC/AndroidStudioProjects/FoodDelivery2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3625" />
+        <entry key="..\:/Users/tu/AndroidStudioProjects/FoodDelivery1/app/src/main/res/drawable/bottom_nav_selector.xml" value="0.1615" />
+        <entry key="..\:/Users/tu/AndroidStudioProjects/FoodDelivery1/app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.1615" />
+        <entry key="..\:/Users/tu/AndroidStudioProjects/FoodDelivery1/app/src/main/res/drawable/ic_baseline_star_rate_24.xml" value="0.1615" />
+        <entry key="..\:/Users/tu/AndroidStudioProjects/FoodDelivery1/app/src/main/res/drawable/ic_home.xml" value="0.1615" />
+        <entry key="..\:/Users/tu/AndroidStudioProjects/FoodDelivery1/app/src/main/res/drawable/ic_profile.xml" value="0.1615" />
+        <entry key="..\:/Users/tu/AndroidStudioProjects/FoodDelivery1/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tu/AndroidStudioProjects/FoodDelivery1/app/src/main/res/layout/activity_navigation_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tu/AndroidStudioProjects/FoodDelivery1/app/src/main/res/layout/fragment_home_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tu/AndroidStudioProjects/FoodDelivery1/app/src/main/res/layout/fragment_home_screen2.xml" value="0.2" />
+        <entry key="..\:/Users/tu/AndroidStudioProjects/FoodDelivery1/app/src/main/res/layout/fragment_movie_now_playing.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/tu/AndroidStudioProjects/FoodDelivery1/app/src/main/res/layout/fragment_movie_top_playing.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tu/AndroidStudioProjects/FoodDelivery1/app/src/main/res/layout/itemview.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tu/AndroidStudioProjects/FoodDelivery1/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

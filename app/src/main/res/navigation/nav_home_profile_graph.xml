@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_home_profile_graph"
     app:startDestination="@id/homeScreen">
-    <include app:graph="@navigation/nav_graph"/>
 
     <fragment
         android:id="@+id/homeScreen"
@@ -17,11 +16,17 @@
         android:id="@+id/profile"
         android:name="com.example.fooddelivery.Profile"
         android:label="Profile"
-        tools:layout="@layout/fragment_profile">
-        <action android:id="@+id/action_profile_to_navgraph"
-            app:destination="@+id/nav_graph"/>
-    </fragment>
-
+        tools:layout="@layout/fragment_profile"/>
+    <fragment
+        android:id="@+id/movieNowPlaying"
+        android:name="com.example.fooddelivery.MovieNowPlaying"
+        android:label="fragment_movie_now_playing"
+        tools:layout="@layout/fragment_movie_now_playing" />
+    <fragment
+        android:id="@+id/movieTopPlaying"
+        android:name="com.example.fooddelivery.MovieTopPlaying"
+        android:label="fragment_movie_top_playing"
+        tools:layout="@layout/fragment_movie_top_playing" />
 
 
 </navigation>
